@@ -38,5 +38,3 @@ predictions = knn.predict(X_test)
 #output data
 print(confusion_matrix(y_test, predictions),'\n')
 print(classification_report(y_test, predictions))
-
-errorRate = getErrorRate(X_train, y_train, X_test, y_test)
